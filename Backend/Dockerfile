@@ -1,4 +1,4 @@
-FROM node:17.7.2-bullseye as builder
+FROM FROM node:lts-iron as builder
 
 
 # Create app directory
