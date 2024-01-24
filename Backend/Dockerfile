@@ -1,4 +1,4 @@
-FROM FROM node:lts-iron as builder
+FROM node:lts-iron as builder
 
 
 # Create app directory
