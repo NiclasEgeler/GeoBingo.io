@@ -5,7 +5,7 @@ FROM node:lts-iron as builder
 WORKDIR /usr/src/app
 
 COPY package.json ./
-COPY package-lock.json ./
+COPY yarn.lock ./
 
 RUN yarn
 
