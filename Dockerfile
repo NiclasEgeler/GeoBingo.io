@@ -50,5 +50,7 @@ COPY --from=backend-builder /usr/src/app /usr/src/app
 # Set working directory for the backend
 WORKDIR /usr/src/app
 
+RUN apk add --update nodejs npm
+
 # Start the backend
 CMD [ "npm", "run", "prod" ]
